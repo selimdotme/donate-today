@@ -108,3 +108,36 @@
     text-align: center;
     margin-top: 60px;
 }
+.btn{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* donate plan */
+.plan-cards{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 45px;
+}
+.plan-card{
+    padding: 30px 15px;
+    border-radius: 8px;
+}
+.c-1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.c-2{
+    background-color:rgba(255, 89, 89, 0.1) ;
+}
+.c-3{
+    background-color: rgba(255, 255, 0, 0.37);
+}
+.text h2{
+    font-size: 24px;
+    font-weight: 600;
+    color:#121212;
+}
+.text p{
+    margin-top: 24px;
+    color:#707070;
+}
